@@ -1,0 +1,92 @@
+.root {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 16px;
+  padding: 24px;
+  background: #f5f9fd;
+  box-shadow: 0 4px 24px #0001;
+  min-width: 350px;
+}
+
+.header {
+  font-family: "Montserrat", "Roboto", sans-serif;
+  color: #274472;
+  margin-bottom: 16px;
+}
+
+.topPanel {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.input {
+  min-width: 150px;
+}
+
+.buttonGroup {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px #0001;
+}
+
+.animControl {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background: #eaf1fb;
+  border-radius: 12px;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 1.1rem;
+}
+
+.graphArea {
+  margin-top: 16px;
+  padding: 16px 0 0 0;
+  border-radius: 12px;
+  background: #f7fbfc;
+  box-shadow: 0 2px 12px #0001;
+}
+
+.edgeInputBlock {
+  padding: 16px 18px 12px 18px;
+  margin-bottom: 12px;
+  background: #f8fafc;
+  border-radius: 10px;
+}
+
+.edgeInputRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+.edgeInputField {
+  min-width: 70px;
+  max-width: 100px;
+}
+
+.addEdgeButton {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 6px 14px 6px 10px;
+  border-radius: 8px;
+  margin-top: 4px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  transition: background .2s;
+}
+
+.addEdgeButton:hover {
+  background: #1565c0;
+}

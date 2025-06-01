@@ -1,0 +1,52 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f1f7f9;
+  position: relative;
+  overflow: hidden;
+}
+
+.backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.title {
+  z-index: 1;
+  font-size: 3rem;
+  color: #2c387e;
+  margin-bottom: 2rem;
+}
+
+.menu {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.menuItem {
+  color: #1976d2;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 10px #0002;
+  transition: background 0.2s, color 0.2s;
+}
+
+.menuItem:hover {
+  background: #1976d2;
+  color: #fff;
+}
