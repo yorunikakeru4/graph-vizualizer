@@ -1,5 +1,4 @@
-# Graph Visualizer
-// English version of the documentation for the Graph Visualizer project.
+## English version of the documentation for the Graph Visualizer project.
 # Graph Visualizer
 
 An interactive graph visualizer with manual editing, random/complete graph generation, and visualization of common algorithms.  
@@ -49,10 +48,6 @@ Built with React + TypeScript using [React Flow](https://reactflow.dev/) for int
 - To quickly create a large random graph, use the "Random Graph" button. No duplicates or loops are possible.
 - To instantly make a complete graph, use the "Complete Graph" button.
 - The visualization area supports mouse zoom and pan.
-
-## Screenshot
-
-![![Graph Visualizer Screenshot](https://i.imgur.com/8Z1k5bH.png)](https://i.imgur.com/8Z1k5bH.png)
 
 ## License
 
@@ -112,8 +107,6 @@ MIT
 - Для быстрого создания полного графа используйте кнопку "Полный граф".
 - Область визуализации поддерживает масштабирование и перемещение мышью.
 
-## Скриншоты
-![![Graph Visualizer Screenshot](https://i.imgur.com/8Z1k5bH.png)](https://i.imgur.com/8Z1k5bH.png)
 ## Лицензия
 
 MIT
